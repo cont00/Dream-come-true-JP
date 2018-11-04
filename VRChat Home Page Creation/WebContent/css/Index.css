@@ -1,0 +1,265 @@
+/*
+	すべてのcss設定が入っているページ
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+* {
+	pading: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jua', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	position: relative;
+	background: #AAAAAA;
+	width: 100%;
+	height: 30px;
+}
+
+#headermain{
+	position: absolute;
+	right:0;
+	top:0px;
+}
+
+#headermain > ul > li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0px 10px;
+}
+
+#mainmenu {
+	background: #000000;
+	color: white;
+	width: 100%;
+	height: 50px;
+}
+
+#mainmenu > ul > li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0px 20px;
+	font-size: xx-large; 
+}
+
+#mainmenu > ul > li > a {
+	color: white;
+}
+
+a:VISITED {
+	color: white;
+}
+
+a:HOVER {
+	color: white;
+}
+
+#mainslider {
+	overflow: hidden;
+	width: 750;
+	height: 400;
+	margin: 0 auto;
+}
+
+#mainslider > #move {
+	margin-left: 0;
+}	
+
+#mainslider > #move > a {
+	float:left;
+}
+
+#mainslider > #left {
+	top: 200px;
+	left: 70px;
+	position: absolute;
+	z-index: 99;
+}
+
+#mainlider > #left:HOVER {
+	cursor: pointer;
+}
+
+#mainslider > #right {
+	position: absolute;
+	top: 200px;
+	right: 70px;
+	z-index: 99;
+}
+
+#mainlider > #right:HOVER {
+	cursor: pointer;
+}
+
+#mainlider > #bottom {
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+	z-index: 99;
+}
+
+#mainslider > #bottom > span {
+	background: #FFFFFF;
+}
+
+#mainslider > #bottom > span:HOVER {
+	cursor: pointer;
+}
+
+.body {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#member {
+	border: 1px solid black;
+	height: 200px;
+	width: 35%;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
+#member > span {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+#member > span > a {
+	color: black;
+}
+
+#frm {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#freeboard {
+	border: 1px solid black;
+	height: 200px;
+	width: 55%;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
+#freeboard > span {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+#freeboard > span > a {
+	color: black;
+}
+
+#membertable {
+	margin: 5px auto;
+}
+
+#membertable th {
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+#FreeBoard {
+	margin: 5px auto;
+}
+
+#FreeBoard th {
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+#Loginform {
+	margin: 0 auto;
+	width: 300px;
+	padding: 20px;
+}
+
+#Loginform > a {
+	color: black;
+}
+
+#IdpwFind {
+	margin: 0 auto;
+	width: 300px;
+	padding: 20px;
+}
+
+#Freeboardlist {
+	overflow: hidden;
+	margin: 10px auto;
+	width: 800px;
+	padding: 30px;
+}
+
+#Freeboardlist > div > span:NTH-CHILD(1) {
+		float: left;
+}
+
+#Freeboardlist > div > span:NTH-CHILD(2) {
+		float: right;
+}
+
+#Freeboardlist > h1 {
+	margin: 10px auto;
+	padding-bottom: 30px;
+}
+
+#Freeboardlist > h1 > a {
+	color: black;
+}
+
+#Freeboardlist > div {
+	margin: 10px auto;
+}
+
+#Freeboardlist > div > div {
+	margin: 10px auto;
+}
+
+#Freeboardlist > form {
+	margin: 5px auto;
+	padding-bottom: 15px;
+}
+
+#makecode {
+	margin: 0 auto;
+	width: 500px;
+	padding: 20px;
+}
+
+#write {
+	margin: 5px auto;
+	width: 600px;
+	padding: 30px;
+}
+
+#write td {
+	padding: 5px;
+}
+
+#write textarea {
+	width: 500px;
+	height: 400px;
+}
+
+#noticeview a {
+	color: #000000;
+}
+
+.footer {
+	background: #c8c8c8;
+	width: 100%;
+	padding-left: 60px;
+}
